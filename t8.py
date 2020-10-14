@@ -18,9 +18,9 @@ def cem_primo():
         if isprimo is True:
             primos += str(numero) + ","
             count += 1
+            if count % 10 == 0:
+                primos = primos + "<br>"
         numero += 1
-        if count % 10 == 0:
-            primos = primos + "<br>"
     return primos
 
 
