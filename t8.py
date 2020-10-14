@@ -20,7 +20,7 @@ def cem_primo():
             count += 1
         numero += 1
         if count % 10 == 0:
-            primos += "<br>"
+            primos = primos + "<br>"
     return primos
 
 
