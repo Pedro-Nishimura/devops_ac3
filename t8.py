@@ -11,12 +11,12 @@ def cem_primo():
     primos = '2, '
     numero = 3
     while count < 100:
-        isprimo = True
+        isprimo = 1
         for x in range(2, numero):
-            if numero % x == 0:
-                isprimo = False
+            if (numero % x == 0):
+                isprimo = 0
                 break
-        if isprimo is True:
+        if (isprimo):
             primos += str(numero) + ","
             count += 1
             if count % 10 == 0:
