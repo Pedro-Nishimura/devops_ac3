@@ -6,6 +6,7 @@ app = Flask(__name__)
 
 @app.route('/')
 def cem_primo():
+    c =1
     count = 1
     primos = '2, '
     numero = 3
