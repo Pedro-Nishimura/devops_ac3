@@ -6,10 +6,10 @@ app = Flask(__name__)
 
 @app.route('/')
 def cem_primo():
-    count = 0
+    count = 1
     primos = '2, '
     numero = 3
-    while count < 99:
+    while count < 100:
         isprimo = True
         for x in range(2, numero):
             if numero % x == 0:
